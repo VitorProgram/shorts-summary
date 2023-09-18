@@ -1,0 +1,39 @@
+/* Estilizando o elemento com o ID "app" */
+#app {
+    /* Usando um layout flexível com direção de coluna e alinhamento central */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilizando o título h1 dentro do elemento com o ID "app" */
+#app h1#title {
+    color: #996dff;
+    margin-top: -5px;
+}
+
+
+/* Estilizando o título h2  e todos os parágrafos*/
+#app h2#resume-title, #app p {
+    align-self: flex-start;
+}
+
+/* Estilizando o título h2 dentro do "app" */
+#app h2#resume-title {
+    margin-top: 64px;
+}
+
+/* Estilizando todos os p dentro do"app" */
+#app p {
+    text-align: justify;
+    width: 512px;
+    margin-top: -5px;    
+}
+
+
+/* Estilizando elementos com a classe "placeholder" dentro do elemento com o ID "app" */
+#app .placeholder {
+    color: #7c7c8a;
+    /* Impedindo a seleção do texto pelo usuário */
+    user-select: none;
+}

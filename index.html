@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!--Links google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/svg+xml" href="/public/logo.svg" /> <!--Logo da página-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Link do javascript principal-->
+    <script type="module" src="web/main.js" defer></script>
+
+    <!--Link da biblioteca de iconer -> phosphor-->
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+
+    <!--Fonte -> Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Tíulo da página-->
+    <title>Shorts Summary</title>
+  </head>
+  <body>
+
+    <!--Tag principal de nome app-->
+    <div id="app">
+      <img title="Logo" id="logo" src="public/logo.svg" alt="Logo em formato play do Shorts Summary"> <!--Logo-->
+      <h1 id="title">Shorts Summary</h1> <!--Texto abaixo da logo-->
+
+      <!--Formulário com input de url e um botão-->
+      <form id="form">
+        <input id="input-url" type="url" placeholder="Video url"> <!--Input do tipo url-->
+
+        <button type="submit" title="Resumir" id="button-url">
+          <i class="ph ph-play"></i> <!--Ícone do botão-->
+        </button>
+      </form>
+
+      <!--Área do resultado de resumo-->
+      <h2 id="resume-title">Resume</h2>
+      <p id="content" class="placeholder">Choose a short to summarize</p>
+    </div>
+
+  </body>
+</html>

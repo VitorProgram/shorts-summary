@@ -1,0 +1,26 @@
+/*Configurações do corpo da página*/
+body {
+    /*Resetando espaçamentos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*Definindo dimensões da tela*/
+    width: 100%;
+    height: 100vh;
+
+    /*Posicionando ao centro*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /*Estilização*/
+    background: #121214;
+    color: #fff;
+}
+
+/*Definindo a fonte padrão do projeto*/
+body, button, input {
+    font-family: 'Roboto', sans-serif;
+}
